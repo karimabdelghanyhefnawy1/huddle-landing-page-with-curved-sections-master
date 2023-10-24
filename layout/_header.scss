@@ -4,5 +4,13 @@ header {
     margin-right: 2rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+}
+
+header button {
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(310, 69%, 63%);
+        border-color: hsl(310, 69%, 63%) ;
+        border-radius: 1rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
 }

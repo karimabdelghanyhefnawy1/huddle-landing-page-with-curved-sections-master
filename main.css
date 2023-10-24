@@ -2,24 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Open Sans", sans-serif;
-}
-
-header {
-  margin-top: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 :root {
   --maincolor: green;
   --mainmargin: 1rem;
@@ -33,11 +15,54 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.hero {
+  width: 100%;
+  height: 100vh;
+}
+
 header {
   margin-top: 2rem;
   margin-left: 2rem;
   margin-right: 2rem;
   display: flex;
   justify-content: space-between;
+}
+
+header button {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(310, 69%, 63%);
+  border-color: hsl(310, 69%, 63%);
+  border-radius: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin-top: 8rem;
+}
+.container p {
+  text-align: center;
+  width: 30%;
+  font-weight: 600;
+  color: hsl(0, 0%, 20.62%);
+}
+.container button {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 6rem;
+  padding-left: 6rem;
+  background-color: hsl(310, 69%, 63%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 2rem;
+  font-weight: 600;
+  box-shadow: 1px 2px 5px 0px hsl(0, 0%, 50%);
+}
+.container img {
+  margin-top: 4rem;
 }/*# sourceMappingURL=main.css.map */
