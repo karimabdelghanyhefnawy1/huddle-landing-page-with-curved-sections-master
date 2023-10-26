@@ -39,9 +39,9 @@ header button {
 
 .container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin-top: 8rem;
 }
 .container p {
@@ -65,4 +65,22 @@ header button {
 }
 .container img {
   margin-top: 4rem;
+}
+
+.number {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 30%;
+  margin-top: 5rem;
+}
+.number .communities-number,
+.number .message-number {
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0;
+}
+.number .paragraph {
+  color: hsl(0, 0%, 50%);
 }/*# sourceMappingURL=main.css.map */
