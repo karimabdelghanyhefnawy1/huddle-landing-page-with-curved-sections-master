@@ -83,4 +83,33 @@ header button {
 }
 .number .paragraph {
   color: hsl(0, 0%, 50%);
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 100%;
+  height: 40%;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.box1 img,
+.box2 img,
+.box3 img {
+  width: 30%;
+}
+
+h2,
+h3,
+h4 {
+  font-size: 2rem;
+}
+
+.grow-together,
+.flowing-conversations,
+.your-users {
+  width: 30%;
 }/*# sourceMappingURL=main.css.map */
