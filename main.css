@@ -101,11 +101,11 @@ header button {
 .box3 img {
   width: 30%;
 }
-
-h2,
-h3,
-h4 {
+.box1 .title,
+.box2 .title,
+.box3 .title {
   font-size: 2rem;
+  font-weight: 800;
 }
 
 .grow-together,
