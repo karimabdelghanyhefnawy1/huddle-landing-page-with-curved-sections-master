@@ -37,20 +37,23 @@ header button {
   padding-left: 2rem;
 }
 
-.container {
+.container,
+.community {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-top: 8rem;
 }
-.container p {
+.container p,
+.community p {
   text-align: center;
   width: 30%;
   font-weight: 600;
   color: hsl(0, 0%, 20.62%);
 }
-.container button {
+.container button,
+.community button {
   margin-top: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -63,7 +66,8 @@ header button {
   font-weight: 600;
   box-shadow: 1px 2px 5px 0px hsl(0, 0%, 50%);
 }
-.container img {
+.container img,
+.community img {
   margin-top: 4rem;
 }
 
@@ -101,9 +105,9 @@ header button {
 .box3 img {
   width: 30%;
 }
-.box1 .title,
-.box2 .title,
-.box3 .title {
+.box1 .address,
+.box2 .address,
+.box3 .address {
   font-size: 2rem;
   font-weight: 800;
 }
@@ -112,4 +116,12 @@ header button {
 .flowing-conversations,
 .your-users {
   width: 30%;
+}
+
+.community {
+  width: 100%;
+  height: 30%;
+}
+.community h2 {
+  font-size: 2rem;
 }/*# sourceMappingURL=main.css.map */

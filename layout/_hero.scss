@@ -1,4 +1,5 @@
-.container {
+.container,
+.community {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +61,7 @@
     img {
         width: 30%;
     }
-    .title {
+    .address {
         font-size: 2rem;
         font-weight: 800;
     }
@@ -69,7 +70,15 @@
 .flowing-conversations,
 .your-users {
     width: 30%;
-} 
+}
+
+.community {
+    width: 100%;
+    height: 30%;
+    h2 {
+        font-size: 2rem;
+    }
+}
 
 
 
