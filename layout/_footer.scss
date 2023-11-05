@@ -6,40 +6,50 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
     .lorem {
         width: 40%;
+
         p {
             color: hsl(0, 0%, 100%);
         }
+
         .text {
             width: 50%;
         }
     }
+
     .phone-email {
         display: flex;
         flex-direction: row;
+
         img {
             width: 1.5vw;
             height: 2vh;
             margin-top: 1.1875rem;
-            }
+        }
+
         p {
-                color: hsl(0, 0%, 100%);
-                margin-left: 1rem;
-            }
+            color: hsl(0, 0%, 100%);
+            margin-left: 1rem;
+        }
     }
+
     .newsletter {
         width: 40%;
         margin-bottom: 2rem;
+
         .title {
             font-size: 2rem;
             font-weight: 700;
             margin: 0;
         }
+
         p {
-        width: 59%;
-        color: hsl(0, 0%, 100%);
+            width: 59%;
+            color: hsl(0, 0%, 100%);
         }
+
         input {
             width: 45%;
             height: 5vh;
@@ -47,6 +57,7 @@ footer {
             border: none;
             margin-top: 2rem;
         }
+
         button {
             margin-left: 2rem;
             padding-top: 1rem;
@@ -61,6 +72,3 @@ footer {
         }
     }
 }
-
-
-

@@ -188,4 +188,59 @@ footer .newsletter button {
   border: none;
   border-radius: 0.25rem;
   font-weight: 600;
+}
+
+@media screen and (min-width: 2560px) {
+  .container button, .community button,
+  footer .newsletter button {
+    font-size: 1.5rem;
+  }
+  footer .newsletter input {
+    height: 3vh;
+  }
+}
+@media screen and (min-width: 1440px) {
+  footer .newsletter input {
+    height: 4vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container img, .community img {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 320px) {
+  header img {
+    height: 10%;
+    width: 40%;
+    margin-top: 1rem;
+  }
+  header button {
+    margin-left: 10rem;
+  }
+  .container, .community {
+    margin-left: 6.5rem;
+    margin-top: 5rem;
+  }
+  h1 {
+    text-align: center;
+  }
+  .container p, .community p,
+  h1,
+  .container img, .community img {
+    width: 170%;
+  }
+  .container button, .community button {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  .number {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7rem;
+    margin-top: 10rem;
+  }
+  .communities {
+    margin-bottom: 4rem;
+  }
 }/*# sourceMappingURL=main.css.map */
