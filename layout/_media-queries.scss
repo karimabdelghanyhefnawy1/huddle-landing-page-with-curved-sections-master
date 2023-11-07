@@ -6,6 +6,10 @@
     footer .newsletter input {
         height: 3vh;
     }
+    footer .phone-email img {
+        width: 1vw;
+        height: 1vh; 
+    }
 }
 
 @media screen and ( min-width: 1440px) {
@@ -21,14 +25,14 @@
 }
 
 
-@media screen and ( max-width: 320px) {
+@media screen and ( max-width: 425px) {
     header img {
         height: 10%;
         width: 40%;
         margin-top: 1rem;
     }
     header button {
-        margin-left: 10rem;
+        margin-left: 12rem;
     }
     .container, .community {
         margin-left: 6.5rem;
@@ -49,11 +53,75 @@
     .number {
         display: flex;
         flex-direction: column;
-        margin-left: 7rem;
+        align-items: center;
+        margin-left: 3.5rem;
         margin-top: 10rem;
     }
     .communities {
         margin-bottom: 4rem;
+    }
+    .box1, .box2, .box3 {
+    width: 125%;
+    height: 50%;
+    margin-top: 15rem;
+    display: flex;
+    align-items: center;
+    }
+    .box1 , .box3 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .box2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .box1 .address, .box2 .address, .box3 .address {
+        font-size: 1rem;
+    }
+    .box1 .sentences, .box2 .sentences , .box3 .sentences {
+        width: 107%;
+        margin-right: 3rem;
+    }
+    .grow-together, .flowing-conversations, .your-users {
+        text-align: center;
+    }
+    .box1 img, .box2 img, .box3 img {
+        margin-left: 2rem;
+        width: 50%;
+    }
+    .community h2 {
+        font-size: 1rem;
+    }
+    .community {
+        display: flex;
+        justify-content: center;
+        margin-left: 3.5rem;
+    }
+    footer {
+        width: 140%;
+        height: 130%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    footer .newsletter , .lorem {
+        margin-left: 5rem;
+    }
+    footer .newsletter p {
+        width: 88%;
+    }
+    footer .lorem .text {
+        width: 138%;
+    }
+    footer .newsletter input {
+        width: 103%;
+    }
+    footer .newsletter button {
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+    footer .phone-email img {
+        width: 5vw;
     }
 }
 
