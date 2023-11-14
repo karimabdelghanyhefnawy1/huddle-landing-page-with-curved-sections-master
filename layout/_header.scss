@@ -7,9 +7,9 @@ header {
 }
 
 header button {
-        background-color: hsl(0, 0%, 100%);
-        color: hsl(310, 69%, 63%);
-        border-color: hsl(310, 69%, 63%) ;
+        background-color: var(--secondcolor);
+        color: var(--maincolor);
+        border-color:  var(--maincolor);
         border-radius: 1rem;
         padding-right: 2rem;
         padding-left: 2rem;

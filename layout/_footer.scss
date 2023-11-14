@@ -11,7 +11,7 @@ footer {
         width: 40%;
 
         p {
-            color: hsl(0, 0%, 100%);
+            color: var(--secondcolor);
         }
 
         .text {
@@ -30,7 +30,7 @@ footer {
         }
 
         p {
-            color: hsl(0, 0%, 100%);
+            color: var(--secondcolor);
             margin-left: 1rem;
         }
     }
@@ -47,7 +47,7 @@ footer {
 
         p {
             width: 59%;
-            color: hsl(0, 0%, 100%);
+            color: var(--secondcolor);
         }
 
         input {
@@ -64,8 +64,8 @@ footer {
             padding-bottom: 1rem;
             padding-right: 2rem;
             padding-left: 2rem;
-            background-color: hsl(310, 69%, 63%);
-            color: hsl(0, 0%, 100%);
+            background-color: var(--maincolor);
+            color: var(--secondcolor);
             border: none;
             border-radius: 0.25rem;
             font-weight: 600;

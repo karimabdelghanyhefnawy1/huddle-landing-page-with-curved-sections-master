@@ -3,8 +3,8 @@
 }
 
 :root {
-  --maincolor: green;
-  --mainmargin: 1rem;
+  --maincolor: hsl(310, 69%, 63%);
+  --secondcolor: hsl(0, 0%, 100%);
 }
 
 body {
@@ -29,9 +29,9 @@ header {
 }
 
 header button {
-  background-color: hsl(0, 0%, 100%);
-  color: hsl(310, 69%, 63%);
-  border-color: hsl(310, 69%, 63%);
+  background-color: var(--secondcolor);
+  color: var(--maincolor);
+  border-color: var(--maincolor);
   border-radius: 1rem;
   padding-right: 2rem;
   padding-left: 2rem;
@@ -59,8 +59,8 @@ header button {
   padding-bottom: 1rem;
   padding-right: 6rem;
   padding-left: 6rem;
-  background-color: hsl(310, 69%, 63%);
-  color: hsl(0, 0%, 100%);
+  background-color: var(--maincolor);
+  color: var(--secondcolor);
   border: none;
   border-radius: 2rem;
   font-weight: 600;
@@ -139,7 +139,7 @@ footer .lorem {
   width: 40%;
 }
 footer .lorem p {
-  color: hsl(0, 0%, 100%);
+  color: var(--secondcolor);
 }
 footer .lorem .text {
   width: 50%;
@@ -154,7 +154,7 @@ footer .phone-email img {
   margin-top: 1.1875rem;
 }
 footer .phone-email p {
-  color: hsl(0, 0%, 100%);
+  color: var(--secondcolor);
   margin-left: 1rem;
 }
 footer .newsletter {
@@ -168,7 +168,7 @@ footer .newsletter .title {
 }
 footer .newsletter p {
   width: 59%;
-  color: hsl(0, 0%, 100%);
+  color: var(--secondcolor);
 }
 footer .newsletter input {
   width: 45%;
@@ -183,8 +183,8 @@ footer .newsletter button {
   padding-bottom: 1rem;
   padding-right: 2rem;
   padding-left: 2rem;
-  background-color: hsl(310, 69%, 63%);
-  color: hsl(0, 0%, 100%);
+  background-color: var(--maincolor);
+  color: var(--secondcolor);
   border: none;
   border-radius: 0.25rem;
   font-weight: 600;
